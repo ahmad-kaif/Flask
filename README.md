@@ -36,3 +36,4 @@ source venv/bin/activate
     app.run(debug=True, port=8000)
 3. Auto-reloading server with debug=True
 4. Flask includes tools to prevent Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and cookie tampering.
+5. Build REST APIs
