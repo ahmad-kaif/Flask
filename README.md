@@ -4,7 +4,17 @@
 Flask is a lightweight and flexible web framework.
 
 It is called a "micro-framework" because it doesn’t include built-in tools like form validation or database abstraction—but you can easily add what you need using extensions.
+
 ```
+
+## Always make a virtual Environment
+```bash
+python -m venv venv
+```
+```bash
+source venv/bin/activate
+```
+
 
 ```
 Flask supports a huge number of extensions like:
@@ -20,13 +30,7 @@ Flask supports a huge number of extensions like:
 ```
 
 
-## Always make a virtual Environment
-```bash
-python -m venv venv
-```
-```bash
-source venv/bin/activate
-```
+
 
 
 ## Points to ponder
